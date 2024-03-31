@@ -79,11 +79,7 @@ public class c {
         System.out.println("再次输入你的密码");
         String password2 = sc.next();
         String qwe = (name.length()>=3)  ? "用户名输入没有错误" :"用户名输入有错误" ;
-<<<<<<< HEAD
-        String qaq = (password.length()>=6 ) && (password == password2) ? "密码输入没有错误" : "第密码输入有错误" ;
-=======
         String qaq = (password.length()>=6 ) && (password == password2) ? "密码输入没有错误" : "密码输入有错误" ;
->>>>>>> 6248a2e (Initial commit)
         System.out.println(qwe);
         System.out.println(qaq);
         // 08
