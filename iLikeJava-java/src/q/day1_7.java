@@ -1,7 +1,5 @@
 package q;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Scanner;
 
 public class day1_7 {
@@ -11,7 +9,7 @@ public class day1_7 {
         int day = sc.nextInt();
         if (day==1||day==3||day==5){
             System.out.println("校内吃");
-        }else if (day==2||day==4||day==6) {
+        } else if (day==2||day==4||day==6) {
             System.out.println("出去吃");
         } else if (day==7) {
             System.out.println("点外卖");
