@@ -14,19 +14,19 @@ public class Animal {
 
     // 跑的方法
     public void run() {
-        System.out.println(name + " is running.");
+        System.out.println(name + " 在跑.");
     }
 
     // 走的方法
     public void walk() {
-        System.out.println(name + " is walking.");
+        System.out.println(name + " 正在行走.");
     }
 
     // 获取动物信息的方法
     public void printInfo() {
-        System.out.println("Name: " + name);
-        System.out.println("Size: " + size);
-        System.out.println("Weight: " + weight + " kg");
+        System.out.println("名称: " + name);
+        System.out.println("大小: " + size);
+        System.out.println("重量: " + weight + " kg");
     }
 
     // 获取和设置名称的方法

@@ -20,7 +20,7 @@ public class TestAnimalBird {
         // 修改鸟的属性并测试
         bird.setFeatherColor("Blue");
         bird.setWingSpan(0.6);
-        System.out.println("After modifying the bird's attributes:");
+        System.out.println("修改小鸟属性后:");
         bird.printInfo();
     }
 }

@@ -24,10 +24,10 @@ public class Square extends Rectangle {
     // 打印正方形信息的方法
     @Override
     public void printInfo() {
-        System.out.println("Square:");
-        System.out.println("Side: " + getLength());
-        System.out.println("Area: " + getArea());
-        System.out.println("Perimeter: " + getPerimeter());
+        System.out.println("正方形:");
+        System.out.println("边: " + getLength());
+        System.out.println("面积: " + getArea());
+        System.out.println("周长: " + getPerimeter());
     }
 }
 

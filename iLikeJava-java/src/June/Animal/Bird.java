@@ -13,15 +13,15 @@ public class Bird extends Animal {
 
     // 飞翔的方法
     public void fly() {
-        System.out.println(getName() + " is flying.");
+        System.out.println(getName() + " 正在飞翔.");
     }
 
     // 获取鸟的信息
     @Override
     public void printInfo() {
         super.printInfo();
-        System.out.println("Feather Color: " + featherColor);
-        System.out.println("Wing Span: " + wingSpan + " meters");
+        System.out.println("羽毛颜色: " + featherColor);
+        System.out.println("翼展: " + wingSpan + " 米");
     }
 
     // 获取和设置羽毛颜色的方法

@@ -8,7 +8,7 @@ public class BasicAccount {
             this.balance = initialBalance;
         } else {
             this.balance = 0;
-            System.out.println("Initial balance cannot be negative. Setting balance to 0.");
+            System.out.println("初始余额不能为负数。将余额设置为 0.");
         }
     }
 
@@ -20,7 +20,7 @@ public class BasicAccount {
         if (amount > 0) {
             balance += amount;
         } else {
-            System.out.println("Deposit amount must be positive.");
+            System.out.println("存款金额必须为正数.");
         }
     }
 
@@ -28,7 +28,7 @@ public class BasicAccount {
         if (amount > 0 && amount <= balance) {
             balance -= amount;
         } else {
-            System.out.println("Invalid withdraw amount.");
+            System.out.println("提款金额无效.");
         }
     }
 }

@@ -15,7 +15,7 @@ public class SavingsAccount extends BasicAccount {
         if (newRate >= 0) {
             annualInterestRate = newRate;
         } else {
-            System.out.println("Interest rate cannot be negative.");
+            System.out.println("利率不能为负.");
         }
     }
 

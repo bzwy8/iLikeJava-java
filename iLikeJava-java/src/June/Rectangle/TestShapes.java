@@ -14,13 +14,13 @@ public class TestShapes {
 
         // 修改正方形的边长并测试
         square.setLength(4.0);
-        System.out.println("After modifying the side of the square:");
+        System.out.println("修改正方形的边后:");
         square.printInfo();
         System.out.println();
 
         // 修改正方形的宽度并测试（实际上是边长）
         square.setWidth(5.0);
-        System.out.println("After modifying the width of the square (which is the side):");
+        System.out.println("修改正方形的宽度（即边):");
         square.printInfo();
     }
 }

@@ -22,11 +22,11 @@ public class Rectangle {
 
     // 打印长方形信息的方法
     public void printInfo() {
-        System.out.println("Rectangle:");
-        System.out.println("Length: " + length);
-        System.out.println("Width: " + width);
-        System.out.println("Area: " + getArea());
-        System.out.println("Perimeter: " + getPerimeter());
+        System.out.println("长方形:");
+        System.out.println("长度: " + length);
+        System.out.println("宽度: " + width);
+        System.out.println("面积: " + getArea());
+        System.out.println("周长: " + getPerimeter());
     }
 
     // 获取和设置长度的方法
